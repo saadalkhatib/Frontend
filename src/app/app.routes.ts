@@ -6,10 +6,10 @@ import { KontaktComponent } from './kontakt/kontakt.component';
 import { AnmeldenComponent } from './anmelden/anmelden.component';
 
 export const routes: Routes = [
-  { path: '', component: LayoutComponent }, // Startseite
+  { path: '', component: LayoutComponent },
   { path: 'wohnungen', component: WohnungenComponent },
   { path: 'ueber-uns', component: UeberUnsComponent },
   { path: 'kontakt', component: KontaktComponent },
-  { path: 'anmelden', component: AnmeldenComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' }, // Fallback für ungültige Routen
+  { path: 'anmeldung', component: AnmeldenComponent },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];

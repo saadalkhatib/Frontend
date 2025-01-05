@@ -1,8 +1,7 @@
 {
-    "TITLE": "Willkommen auf der Wohnplattform",
-    "DESCRIPTION": "Finden Sie Ihre Traumwohnung oder kontaktieren Sie uns für weitere Informationen.",
-    "BUTTON_WOHNUNGEN": "Wohnungen ansehen",
-    "BUTTON_KONTAKT": "Kontakt aufnehmen",
-    "LANGUAGE": "Sprache"
-  }
-  
+  "TITLE": "Willkommen auf der Wohnplattform",
+  "BUTTON_ANGEBOTE": "Angebote",
+  "BUTTON_INFOS": "Infos",
+  "BUTTON_KONTAKT": "Kontakt",
+  "BUTTON_ANMELDUNG": "Anmeldung"
+}

@@ -9,12 +9,12 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
     importProvidersFrom(
-      HttpClientModule,
+      HttpClientModule, // HttpClient Modul registrieren
       TranslateModule.forRoot({
         loader: {
           provide: TranslateLoader,
           useFactory: (http: HttpClient) => new TranslateHttpLoader(http, './assets/i18n/', '.json'),
-          deps: [HttpClient], // HttpClient hier als Abhängigkeit
+          deps: [HttpClient],
         },
       })
     ),

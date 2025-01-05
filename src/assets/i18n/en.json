@@ -1,8 +1,7 @@
 {
-    "TITLE": "Welcome to the Housing Platform",
-    "DESCRIPTION": "Find your dream apartment or contact us for more information.",
-    "BUTTON_WOHNUNGEN": "View Apartments",
-    "BUTTON_KONTAKT": "Contact Us",
-    "LANGUAGE": "Language"
-  }
-  
+  "TITLE": "Welcome to the Housing Platform",
+  "BUTTON_ANGEBOTE": "Offers",
+  "BUTTON_INFOS": "Information",
+  "BUTTON_KONTAKT": "Contact",
+  "BUTTON_ANMELDUNG": "Sign Up"
+}

@@ -1,16 +1,29 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">{{ 'TITLE' | translate }}</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/wohnungen">{{ 'BUTTON_WOHNUNGEN' | translate }}</a>
+          <a class="nav-link" routerLink="/wohnungen">{{ 'BUTTON_ANGEBOTE' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/ueber-uns">{{ 'BUTTON_INFOS' | translate }}</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/kontakt">{{ 'BUTTON_KONTAKT' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/anmeldung">{{ 'BUTTON_ANMELDUNG' | translate }}</a>
         </li>
       </ul>
       <div class="ml-auto">
@@ -20,9 +33,3 @@
     </div>
   </nav>
 </header>
-<main>
-  <router-outlet></router-outlet>
-</main>
-<footer class="text-center bg-dark text-light py-3">
-  © 2024 Wohnplattform
-</footer>
