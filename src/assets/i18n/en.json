@@ -1,7 +1,7 @@
 {
-  "TITLE": "Welcome to the Housing Platform",
+  "TITLE": "Housing Platform",
   "BUTTON_ANGEBOTE": "Offers",
-  "BUTTON_INFOS": "Information",
+  "BUTTON_INFOS": "Info",
   "BUTTON_KONTAKT": "Contact",
-  "BUTTON_ANMELDUNG": "Sign Up"
+  "BUTTON_ANMELDUNG": "Register"
 }

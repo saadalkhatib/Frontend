@@ -1,8 +1,9 @@
 <section class="filter-bar">
   <p>3 Angebote</p>
   <div class="filter-options">
-    <input type="range" min="0" max="1000" step="10">
-    <span>max. 690 €</span>
+    <label for="priceRange">Maximale Miete:</label>
+    <input type="range" id="priceRange" min="0" max="3000" step="50" value="1000" oninput="updatePrice(this.value)">
+    <span id="priceDisplay">Max. 1000 €</span>
   </div>
 </section>
 
