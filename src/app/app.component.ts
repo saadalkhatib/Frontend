@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { LayoutComponent } from './layout/layout.component'; // LayoutComponent importieren
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LayoutComponent], // LayoutComponent registrieren
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'] // Hinweis: styleUrl -> styleUrls korrigieren
+  styleUrls: ['./app.component.css'],
+  standalone: true, // Standalone Component
+  imports: [RouterModule] // Import notwendiger Module
 })
-export class AppComponent {
-  title = 'wohnplattform';
-}
+export class AppComponent {}

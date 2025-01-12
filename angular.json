@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "wohnplattform": {
+    "Frontend-master": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/wohnplattform",
+            "outputPath": "dist/Frontend-master",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "wohnplattform:build:production"
+              "buildTarget": "Frontend-master:build:production"
             },
             "development": {
-              "buildTarget": "wohnplattform:build:development"
+              "buildTarget": "Frontend-master:build:development"
             }
           },
           "defaultConfiguration": "development"

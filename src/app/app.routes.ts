@@ -11,5 +11,5 @@ export const routes: Routes = [
   { path: 'ueber-uns', component: UeberUnsComponent },
   { path: 'kontakt', component: KontaktComponent },
   { path: 'anmeldung', component: AnmeldenComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' },
+  { path: '**', redirectTo: '' }
 ];
